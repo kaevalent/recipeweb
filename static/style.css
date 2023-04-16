@@ -52,7 +52,6 @@ html {
 
 .instruction__item {
     display: flex;
-    margin-top: 1em;
 }
 
 .instruction__item__text {
@@ -76,6 +75,7 @@ html {
 
 .instruction__item__number.p {
     display: block;
+    margin-top: 1em;
 }
 
 .main__source {
@@ -305,7 +305,7 @@ footer {
     
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1700px) {
     .wrapper {
         grid-template-columns: auto 1fr auto auto auto;
         grid-template-rows: auto 1fr auto auto 10rem;
@@ -316,6 +316,7 @@ footer {
     header {
         grid-row:1;
         grid-column:span 5;
+        margin-bottom: 3rem;
     }
     .recipe__picture {
         grid-row: 2;
@@ -404,6 +405,7 @@ footer {
 
     .howto__container__header {
         font-size: 6rem;
+        margin: 2rem 0;
     }
 
     .instruction__item__text {
@@ -413,6 +415,10 @@ footer {
     .instruction__item__number {
         font-size: 5rem;
         padding: 4rem;
+    }
+
+    .instruction__item {
+        margin-bottom: 3rem;
     }
 
     .main__source {
